@@ -30,7 +30,7 @@ let s:Color11 = '#552e33'
 let s:Color0 = '#717171'
 let s:Color4 = '#E6E6E6'
 let s:Color7 = '#202020'
-let s:None = NONE
+let s:None = 'NONE'
 
 call s:highlight('Comment', '', s:Color0, 'italic')
 call s:highlight('Keyword', '', s:Color1, '')
