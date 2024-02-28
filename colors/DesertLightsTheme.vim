@@ -1,3 +1,11 @@
+" -----------------------------------------------------------------------------
+" Name:         DesertLights
+" Description:  Beautiful theme for NeoVIM
+" Author:       Brayden Moon <crazywolf132@gmail.com>
+" Website:      https://github.com/crazywolf132/desert.vim/
+" License:      MIT
+" -----------------------------------------------------------------------------
+
 highlight clear
 
 function s:highlight(group, bg, fg, style)
