@@ -30,6 +30,7 @@ let s:Color11 = '#552e33'
 let s:Color0 = '#717171'
 let s:Color4 = '#E6E6E6'
 let s:Color7 = '#202020'
+let s:None = NONE
 
 call s:highlight('Comment', '', s:Color0, 'italic')
 call s:highlight('Keyword', '', s:Color1, '')
@@ -46,7 +47,7 @@ call s:highlight('PmenuSel', s:Color9, s:Color8, '')
 call s:highlight('PmenuThumb', s:Color8, s:Color9, '')
 call s:highlight('DiffAdd', s:Color10, '', '')
 call s:highlight('DiffDelete', s:Color11, '', '')
-call s:highlight('Normal', s:Color8, s:Color9, '')
+call s:highlight('Normal', s:None, s:None, '')
 call s:highlight('Visual', s:Color12, '', '')
 call s:highlight('CursorLine', s:Color12, '', '')
 call s:highlight('ColorColumn', s:Color12, '', '')
